@@ -52,3 +52,7 @@
   margin-bottom: 5px;
   display: block;
 }
+
+.user-component__margin {
+  padding-bottom: 10px;
+}

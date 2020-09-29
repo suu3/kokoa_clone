@@ -23,7 +23,7 @@
   bottom: 15px;
 }
 
-.nav__notification2 {
+.nav__notification-ellipsis {
   background-color: tomato;
   width: 8px;
   height: 8px;
@@ -32,4 +32,14 @@
   position: absolute;
   left: 30px;
   bottom: 25px;
+}
+.nav__notification-cog {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 15px;
+  display: flex;
+  position: absolute;
+  right: -8px;
+  bottom: 18px;
 }
