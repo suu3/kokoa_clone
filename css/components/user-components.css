@@ -1,3 +1,33 @@
+.user_component__comment_name__ad{
+  margin: 0px 7px;
+  padding: 1px 5px;
+  border: var(--main-border);
+  border-radius: 20px;
+  font-size:small;
+  font-weight:1000;
+  color: rgba(0, 0, 0, 0.4);;
+}
+.user-component__comment{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user_component__comment_name{
+  margin-bottom: 8px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+.user_component__comment_message{
+  font-size: 18px;
+  color:rgb(173, 173, 173);
+}
+
+.user-component__bar{
+  padding: 30px 0px;
+  border-bottom: var(--main-border);
+}
+
 .user-component {
   justify-content: space-between;
 }
