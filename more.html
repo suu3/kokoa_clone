@@ -35,39 +35,82 @@
     </header>
 
     <main class="main-screen more-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://cdn.pixabay.com/photo/2019/09/06/04/25/beach-4455433_960_720.jpg"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Suu</h4>
-            <h6 class="user-component__subtitle">
-              +82 010-1234-5678 <i class="fas fa-exclamation-circle"></i>
-            </h6>
+      <div class="more-user__component">
+      <!--user-->
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://cdn.pixabay.com/photo/2019/09/06/04/25/beach-4455433_960_720.jpg"
+              class="user-component__avatar user-component__avatar--xl"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Suu</h4>
+              <h6 class="user-component__subtitle">
+                +82 010-1234-5678 <i class="fas fa-exclamation-circle"></i>
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <i class="far fa-comment-alt fa-2x"></i>
           </div>
         </div>
-        <div class="user-component__column">
-          <i class="far fa-comment-alt fa-2x"></i>
+        <!--pay-->
+        <div class="more-pay">
+          <div class="more-pay__left"><i class="fas fa-comment"></i><span>pay 0won</span></div>
+          <div class="more-pay__right">
+            <div><span>remit</span></div>
+            <div><span>pay</span></div>
+            <div><span>asset</span></div>
+          </div>
         </div>
       </div>
+      <!--icon-->
       <div class="icon-row">
-        <div class="icon-row__icon">
-          <i class="far fa-calendar"></i>
-          <span>Calendar</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="far fa-smile-beam"></i>
-          <span>Emotions</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fas fa-paint-roller"></i>
-          <span>Themes</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fas fa-file-invoice-dollar"></i>
-          <span>Account</span>
+        <div class="icon-row__component">
+          <div class="icon-row__icon">
+            <div class="icon-row__icon_box">
+              <i class="far fa-calendar"></i>
+              <span>Calendar</span>
+            </div>
+            <div class="icon-row__icon_box">
+              <span class="icon-row__ellipsis"></span>
+              <i class="fas fa-gift"></i>
+              <span>Gift</span>
+            </div>
+          </div>
+          <div class="icon-row__icon">
+            <div class="icon-row__icon_box">
+              <i class="far fa-smile-beam"></i>
+              <span>Emotions</span>
+            </div>
+            <div class="icon-row__icon_box">
+              <i class="fas fa-gamepad"></i>
+              <span>Game</span>
+            </div>
+          </div>
+          <div class="icon-row__icon">
+            <div class="icon-row__icon_box">
+              <span class="icon-row__ellipsis"></span>
+              <i class="fas fa-paint-roller"></i>
+              <span>Themes</span>
+            </div>
+            <div class="icon-row__icon_box">
+              <span class="icon-row__ellipsis"></span>
+              <i class="fas fa-shopping-cart"></i>
+              <span>Shopping</span>
+            </div>
+          </div>
+          <div class="icon-row__icon">
+            <div class="icon-row__icon_box">
+              <i class="fas fa-file-invoice-dollar"></i>
+              <span>Account</span>
+            </div>
+            <div class="icon-row__icon_box">
+              <span class="icon-row__ellipsis"></span>
+              <i class="fas fa-tshirt"></i>
+              <span>Style</span>
+            </div>
+          </div>
         </div>
       </div>
       <div class="more-suggestions">
@@ -92,9 +135,9 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
-          ></a>
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
@@ -103,15 +146,15 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><i class="fas fa-search fa-2x"></i
-          ></a>
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="more.html"
-            ><span class="nav__notification-ellipsis"></span
-            ><i class="fas fa-ellipsis-h fa-2x"></i
-          ></a>
+          <a class="nav__link" href="more.html">
+            <span class="nav__notification-ellipsis"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
         </li>
       </ul>
     </nav>
