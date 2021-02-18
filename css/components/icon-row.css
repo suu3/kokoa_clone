@@ -1,9 +1,12 @@
 
+.icon-row {
+  padding-top: 35px;
+  border-top: var(--main-border);
+}
+
 .icon-row__component {
   display: flex;
   justify-content: space-between;
-  margin-left:18px;
-  margin-right:18px;
 }
 
 .icon-row__icon .icon-row__icon_box{
@@ -23,6 +26,8 @@
 
 .icon-row__icon_box{
   position:relative;
+  width:70px;
+  text-align: center;
 }
 .icon-row__ellipsis {
   background-color: tomato;

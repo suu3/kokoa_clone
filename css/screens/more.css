@@ -3,7 +3,6 @@
   justify-content: space-between;
   align-items: center;
   margin: 18px 0px;
-  padding: 0px 10px;
 }
 .more-pay__left{
   border: var(--main-border);
@@ -33,11 +32,6 @@
 }
 .more-pay__right > div:last-child{
   padding-left: 10px;
-}
-
-.icon-row {
-  padding-top: 35px;
-  border-top: var(--main-border);
 }
 
 
