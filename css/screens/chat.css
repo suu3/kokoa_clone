@@ -12,10 +12,6 @@
   box-sizing: border-box;
 }
 
-#chat-screen .status-bar {
-  z-index: 2;
-}
-
 #chat-screen .alt-header {
   top: 10px;
   z-index: 1;
