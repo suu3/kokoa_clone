@@ -35,6 +35,12 @@
   padding-left: 10px;
 }
 
+.icon-row {
+  padding-top: 35px;
+  border-top: var(--main-border);
+}
+
+
 .more-suggestions {
   border-top: var(--main-border);
   padding-top: 35px;
