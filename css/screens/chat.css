@@ -150,7 +150,7 @@
 }
 
 .reply:focus-within span {
-  transform: translateX(50%) translateY(-80px);
+  transform: translateX(45%) translateY(-80px);
 }
 
 /*enlarge message input*/
