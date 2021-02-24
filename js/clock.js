@@ -7,7 +7,6 @@ function getTime(){
     const minutes = date.getMinutes();
     clockTitle.innerText =
         `${hours < 10 ? `0${hours}`: hours}:${minutes < 10 ? `0${minutes}` : minutes}`;
-    console.log(innerText);
 }
 
 function init(){

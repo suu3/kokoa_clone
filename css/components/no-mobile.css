@@ -1,9 +1,10 @@
 #no-mobile {
   position: absolute;
   z-index: 99;
-  height: 100vh;
+  height: 130vh;
   width: 100vw;
   background-color: var(--basic);
+  color: antiquewhite;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,8 +12,23 @@
   top: 0;
 }
 
+#chat__no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 550vh;
+  width: 100vw;
+  background-color: var(--basic);
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
 @media screen and (max-width: 645px) {
-  #no-mobile {
+  #no-mobile,
+  #chat__no-mobile {
     display: none;
   }
 }
