@@ -205,7 +205,3 @@
 .reply__column span:active {
   outline: none;
 }
-
-.js-display {
-  display: none;
-}
