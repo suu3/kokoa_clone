@@ -139,16 +139,18 @@
 }
 
 .reply: .reply__column:first-child,
-.reply: .fa-smile-wink,
-.reply: button {
+.reply: .fa-smile-wink {
   transition: opacity 0.3s ease-in-out;
 }
 
 /*dissapear exept message input*/
 .reply:focus-within .reply__column:first-child,
-.reply:focus-within .fa-smile-wink,
-.reply:focus-within button {
+.reply:focus-within .fa-smile-wink {
   opacity: 0;
+}
+
+.reply:focus-within span {
+  transform: translateX(50%) translateY(-80px);
 }
 
 /*enlarge message input*/
@@ -172,7 +174,7 @@
 }
 
 .reply__column:last-child > i,
-.reply__column:last-child button {
+.reply__column:last-child span {
   position: absolute;
   right: 3px;
   top: 3px;
@@ -183,19 +185,23 @@
   top: 15px;
 }
 
-.reply__column button {
+.reply__column span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #ffba93;
   border: none;
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
-.reply__column button i {
+.reply__column span i {
   opacity: 1;
 }
 
-.reply__column button:focus,
-.reply__column button:active {
+.reply__column span:focus,
+.reply__column span:active {
   outline: none;
 }
