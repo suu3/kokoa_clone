@@ -144,18 +144,20 @@
   transition: opacity 0.3s ease-in-out;
 }
 
+/*dissapear exept message input*/
 .reply:focus-within .reply__column:first-child,
 .reply:focus-within .fa-smile-wink,
 .reply:focus-within button {
-  /*reply 내부에 어떤 element가 focus되어 있다면*/
   opacity: 0;
 }
 
+/*enlarge message input*/
 .reply input:focus {
   width: 95vw;
   transform: translateX(-13%) translateY(-80px);
 }
 
+/*when being focused, reply columns translate down*/
 .reply:focus-within {
   transform: translateY(80px);
 }
@@ -192,6 +194,7 @@
 .reply__column button i {
   opacity: 1;
 }
+
 .reply__column button:focus,
 .reply__column button:active {
   outline: none;
