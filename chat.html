@@ -35,9 +35,8 @@
       </div>
     </header>
 
-    <main class="main-screen main-chat">
+    <main class="main-screen main-chat" id="js-main">
       <div class="chat__timestamp">Tuesday, June 30, 2020</div>
-
       <div class="message-row">
         <img
           src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
@@ -63,9 +62,9 @@
         <i class="far fa-plus-square fa-lg"></i>
       </div>
       <div class="reply__column">
-        <input type="text" placeholder="Write a message..." />
+        <input id="js-input" type="text" placeholder="Write a message..." />
         <i class="far fa-smile-wink fa-lg"></i>
-        <span>
+        <span id="js-span" onclick="init()">
           <i class="fas fa-arrow-up"></i>
         </span>
       </div>
@@ -75,8 +74,9 @@
     </div>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous">
+    </script>
     <script src="js/clock.js"></script>
+    <script src="js/reply.js"></script>
   </body>
 </html>
