@@ -6,9 +6,9 @@
   align-items: center;
 }
 
-.welcome-header>i{
-  font-size:100px;
-  margin-bottom:45px;
+.welcome-header > i {
+  font-size: 100px;
+  margin-bottom: 45px;
 }
 
 .welcome-header__title {
@@ -40,11 +40,12 @@
 }
 
 #login-form input:focus {
-  border-color: rgb(99, 224, 255);
+  border-color: #ffdfdf;
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: var(--basic);
+  color: antiquewhite;
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
@@ -56,15 +57,19 @@
   font-size: 13px;
 }
 
-#login-form a{
-  color: rgba(0, 0, 0, 0.4);
+#login-form a {
+  color: #e7b293;
   transition: color 0.3s ease-in-out;
 }
-#login-form a:hover{
-  color: rgb(99, 224, 255);
+#login-form a:hover {
+  color: #9f5f80;
 }
 
-#login-form span{
-  color: rgba(0, 0, 0, 0.4);
+#login-form span {
+  color: #e7b293;
   margin: 0px 8px;
+}
+
+.index__i {
+  color: #9f5f80;
 }

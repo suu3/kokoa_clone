@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: #dfccd9;
   height: 500vh;
 }
 
@@ -8,7 +8,7 @@
   top: 0;
   position: fixed;
   width: 100%;
-  background-color: #abc1d1;
+  background-color: #dfccd9;
   box-sizing: border-box;
 }
 
@@ -17,6 +17,7 @@
   z-index: 1;
 }
 
+/*message bubble*/
 @keyframes fadeInLeft {
   from {
     transform: translateX(-20px);
@@ -48,7 +49,7 @@
 
 .chat__timestamp {
   color: white;
-  background-color: #92a4b2;
+  background-color: #b292a6;
   padding: 15px;
   font-size: 14px;
   border-radius: 25px;
@@ -100,7 +101,7 @@
 }
 
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: #ffba93;
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;
@@ -111,6 +112,7 @@
   flex-direction: row-reverse;
 }
 
+/*write a message*/
 .reply {
   position: fixed;
   bottom: 0;
@@ -180,7 +182,7 @@
 }
 
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: #ffba93;
   border: none;
   width: 40px;
   height: 40px;
