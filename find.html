@@ -26,11 +26,19 @@
       <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons nav__link">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
-        <span class="nav__notification-cog"></span>
+        <span><i class="fas fa-cog fa-lg" onclick="EditBox()"></i></span>
       </div>
     </header>
-
+    <!--edit box-->
+    <div class="edit-box SHOWING_ON">
+      <div class="edit-box__column">
+        <span>Edit</span>
+      </div class="edit-box__column">
+        <span>Friend Management</span>
+      <div class="edit-box__column">
+        <span>Setting</span>
+      </div>
+    </div>
     <main class="main-screen" style="margin-top:-10px; margin-bottom: 90px;">
       <div class="icon-row">
         <div class="icon-row__component">
@@ -128,7 +136,7 @@
       <span>Your screen is too big</span>
     </div>
     <script src="https://kit.fontawesome.com/70e0dc75f1.js" crossorigin="anonymous"></script>
-
     <script src="js/clock.js"></script>
+    <script src="js/edit-box.js"></script>
   </body>
 </html>

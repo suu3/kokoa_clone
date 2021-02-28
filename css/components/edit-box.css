@@ -1,0 +1,25 @@
+.edit-box {
+  background-color: white;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 70px;
+  right: 20px;
+  z-index: 1;
+  padding: 20px;
+  border: var(--main-border);
+  box-shadow: 0px 0px 4px gray;
+}
+
+.edit-box__column:first-child {
+  padding-bottom: 20px;
+}
+
+.edit-box__column:last-child {
+  padding-top: 20px;
+}
+
+.SHOWING_ON {
+  display: none;
+}
