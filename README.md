@@ -1,5 +1,5 @@
 # 코코아톡 클론 코딩
-노마드 코더 코코아톡 클론 코딩 강의 + 자체적으로 javascript랑 등등 추가
+노마드 코더 코코아톡 클론 코딩 강의(html, css) + 자체적으로 javascript랑 등등 추가
 
 https://suu3.github.io/kokoa_clone/
 
