@@ -1,4 +1,4 @@
-# 카카오톡 클론 코딩
+# 카카오톡 클론 코딩 (2020.9)
 <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-F7DF1E?style=flat-square&logo=css3&logoColor=white"/><br/>
 노마드 코더 코코아톡 클론 코딩 강의 + 자체적으로 javascript랑 등등 추가
 
